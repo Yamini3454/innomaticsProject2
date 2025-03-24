@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .first-page{
+    background: url('https://opengameart.org/sites/default/files/Starry%20night%20Image.png');
+} */
+
+body{
+    height: 100vh;
+    background: url('https://cdnb.artstation.com/p/assets/images/images/012/078/011/large/sasikumar-artist-img-20180724-233908-725.jpg?1532938104');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.font{
+    font-size: 90px;
+    font-style: italic;
+    text-shadow: 0.5px grey;
+    color: darkblue;
+    
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+p{
+    font-size: 50px;
+    font-style: italic;
+    float: right;
+    color: darkblue;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+.button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    float: right;
+    margin-top: 100px;
+}
+  
+  /* Optional hover effect */
+.button:hover {
+    background-color: lightblue;
+}
+/* Second Page */
