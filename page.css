@@ -32,8 +32,8 @@ body {
 
 /* Memory Card */
 .memory-card {
-    width: 100px; /* Default size */
-    height: 130px;
+    width: 80px; /* Default size */
+    height: 80px;
     position: relative;
     border: 2px solid aqua;
     transform: scale(1);
@@ -55,6 +55,19 @@ body {
     left: 0;
     backface-visibility: hidden;
     transition: transform 0.5s;
+}
+
+.front-face {
+    transform: rotateY(0deg);
+}
+
+.back-face {
+    transform: rotateY(180deg);
+}
+
+/* ✅ Fix Flip Effect */
+.memory-card.flip {
+    transform: rotateY(180deg);
 }
 
 /* Game Info Styles */
@@ -93,11 +106,11 @@ body {
 /* ✅ Standard Laptop/Desktop View (1024px - 1919px) */
 @media (min-width: 1024px) and (max-width: 1919px) {
     .memory-game {
-        gap: 20px;
+        gap: 15px;
     }
     .memory-card {
-        width: 150px;
-        height: 200px;
+        width: 120px;
+        height: 150px;
     }
 }
 
