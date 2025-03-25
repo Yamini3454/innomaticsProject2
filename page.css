@@ -24,7 +24,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    max-width: 80vw;
+    max-width: 100vw;
     padding: 10px;
     overflow: hidden;
     justify-content: center;
@@ -161,7 +161,7 @@ button {
 /* ✅ Mobile View */
 @media (max-width: 768px) {
     .memory-game {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         max-width: 80vw;
     }
     .memory-card {
@@ -172,7 +172,7 @@ button {
 
 @media (max-width: 480px) {
     .memory-game {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         max-width: 90vw;
     }
     .memory-card {
